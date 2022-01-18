@@ -8,6 +8,7 @@ git commit -m ''$commit'' &&
 git push -u origin main &&
 
 echo -e "\033[0;32m.............................\n\033]"
-echo -e "\033[0;32m  |SUCCESS| \n\033]"
+echo -e "\033[0;32m           |SUCCESS| \n\033]"
 echo -e "\033[0;32m.............................\n\033]"
 echo -e "\033[0;32m| commit: $commit  \n\033]"
+echo -e "\033[0;32m.............................\n\033]"
