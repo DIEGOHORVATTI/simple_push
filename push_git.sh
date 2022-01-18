@@ -5,7 +5,7 @@ echo $commit
 echo "\"$commit\""
 git branch -M main &&
 git add . &&
-git commit -m $commit"\"mauricio"\";echo $commit"mauricio" &&
+git commit -m '"'$commit'"' &&
 git push -u origin main &&
 
 echo -e "\033[0;32m.............................\n\033]"
