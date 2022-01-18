@@ -4,7 +4,7 @@ read -p 'commit: ' commit
 
 git branch -M main &&
 git add . &&
-git commit -m '"'$commit'"' &&
+git commit -m ''$commit'' &&
 git push -u origin main &&
 
 echo -e "\033[0;32m.............................\n\033]"
