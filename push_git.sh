@@ -47,7 +47,7 @@ echo -e "\033[0;32m| commit: $commit  \n\033]"
 echo -e "\033[0;32m| branch: $branch  \n\033]"
 echo -e "\033[0;32m.............................\n\033]"
 
-while test $# -gt 0
+while test -n "$1"
 do
     case "$1" in
         -h | --help) help ;;
